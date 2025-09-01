@@ -1,0 +1,141 @@
+@font-face {
+        font-family: 'android';
+        src: url('fonts/idroid.otf') format('opentype');
+    }
+/* Grouping tags */
+header{
+    background-image: linear-gradient(to bottom, rgb(173, 240, 173), darkgreen);
+    height: 150px;
+   
+    
+        
+      }
+main{
+    
+}
+footer{}
+body{
+    background-color: rgb(163, 223, 163);
+    margin: 0px;
+
+}
+div{
+    background-color: white;
+    margin: auto;
+    height: auto;
+    width: 800px;
+}
+
+
+/* tags */
+a{
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+    
+}
+
+video{}
+
+h1{
+    margin-top: 0px;
+    
+}
+h2{
+    background-image: linear-gradient(to right, rgba(163, 223, 163, 0.411), rgba(163, 223, 163, 0));
+    margin-left: 10px;
+}
+h3{
+    
+}
+nav{
+    margin-top: 35px;
+    margin-left: 5px;
+    
+    font-size: 18px;
+     font-family: sans-serif;
+    font-weight: bolder;
+    
+}
+nav :hover{
+    
+    background-color: rgba(2, 54, 2, 0.384);
+    
+}
+    
+p{
+    margin-left: 10px;
+    text-indent: 10px;
+    font-size: large;
+    font-weight: 550;
+    font-family: sans-serif;
+
+}
+/* Classes*/
+.tittle{
+    margin-top: 0px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    padding-top: 15px;
+    text-align: center;
+    color: white;
+}
+.tittletext{
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+}
+.irina-blokimg{
+    width: 750px;
+    margin-left: 25px;
+}
+.androidvideo{
+    background-color: darkgreen;
+   
+    border: 40px solid darkgreen;
+}
+
+
+.caixa {
+      background-color: #e6f4ea;   /* fundo verde claro */
+      border: 2px solid #2e7d32;   /* borda verde */
+      border-radius: 10px;         /* bordas arredondadas */
+      max-width: 750px;
+      font-family: Arial, sans-serif;
+      overflow: hidden;            /* garante que nada saia pra fora */
+    }
+
+    .titulo {
+      background-color: #2e7d32;  /* fundo verde escuro */
+      color: white;
+      font-weight: bold;
+      padding: 8px;
+      border-radius: 8px 8px 0 0; /* arredondado só em cima */
+    }
+
+    .conteudo {
+      padding: 15px; /* espaço interno pro resto */
+    }
+
+    .lista {
+      display: grid;
+      grid-template-columns: 1fr 1fr; /* duas colunas */
+      gap: 5px 20px;
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .lista li::before {
+      content: "✔ ";
+      color: #2e7d32;
+      font-weight: bold;
+    }
+    .rodape{
+        text-align: center;
+        color: white;
+        font-size: large;
+        background-color: rgb(0, 68, 0);
+       
+        margin: 0px;
+    }
+   

@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(28, 59, 117);
+}
+h1{
+    color: rgb(217, 231, 243);
+
+}
+h1#primeiroh1{
+color: rgb(2, 172, 2);
+text-align: center;
+}
+h2{
+    color: aliceblue;
+}
+h2.basico{
+    color: blueviolet;
+}
+p{
+    color: aliceblue;
+}
