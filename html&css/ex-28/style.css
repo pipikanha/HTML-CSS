@@ -65,6 +65,7 @@ section{
 text-align: center;}
 p{
     font-size: 24px;
+    font-weight: bold;
     margin: 0px;
     font-family: cursive;
 }
@@ -81,7 +82,7 @@ article{
     max-width: 250px;
 }
 article p{
-    text-align: justify;
+    text-align: left;
     padding-top: 30px;
     
 
