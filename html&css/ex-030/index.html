@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Avançadas</title>
+    <style>
+        table{
+            width: 390px;
+            border-collapse: collapse;
+            position: relative;
+            height: 1200px;
+            }
+            thead > tr > th{
+                position: sticky;
+                top: -1px;
+                background-color: rgba(128, 128, 128, 0.74);
+            }
+            thead{
+                background-color: gray;
+                color: white;
+            }
+        th{
+            border: 1px solid black;
+        }
+        tr :hover{
+            background-color: rgba(135, 206, 250, 0.74);
+        }
+        td{
+            border: 1px solid black;
+            
+        }
+        tbody tr:nth-child(even){
+            background-color: lightgray;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Tabelas Grandes</h1>
+    <table>
+        <thead>
+            <th>Unidade Federativa</th>
+            <th>população</th>
+           
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <p>São Pualo</p>
+                </td>
+                <td>
+                    <p>46.081.801</p>
+                </td>
+            </tr>
+             <tr>
+                <td>
+                    <p>Minas Gerais</p>
+                </td>
+                <td>
+                    <p>21.393.441</p>
+                </td>
+            </tr>
+             <tr>
+                <td>
+                    <p>Rio de Janeiro</p>
+                </td>
+                <td>
+                    <p>17.223.547</p>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+</body>
+</html>
